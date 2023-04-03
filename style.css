@@ -1,0 +1,132 @@
+.left {
+    /* border: 2px solid black; */
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 93px;
+}
+
+.mid {
+    /* border: 2px solid green; */
+    display: block;
+    top: 30px;
+    margin: 55px auto;
+    width: 57%;
+
+}
+
+.right {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 41px;
+    right: 43px;
+}
+
+.body {
+    background-color: white;
+}
+
+.grow-list {
+    display: inline-block;
+}
+
+.grow-list li {
+    display: inline-block;
+}
+
+.grow-list li a {
+    color: #beb8b8;
+    ;
+    text-decoration: none;
+    padding: 22px 20px;
+}
+
+.grow-list li a:hover {
+    color: #1f1f1f;
+}
+
+.right .nav-button {
+    position: relative;
+    right: -2px;
+    top: 0px;
+    padding: 24px 41px;
+    /* height: 81px; */
+    background-color: #3f3a87;
+    font-size: 20px;
+    color: #beb8b8;
+    border-radius: 16px;
+    border: none;
+
+}
+
+.below {
+    width: 100%;
+}
+
+.rightimg {
+    /* border: 2px solid black; */
+    display: block;
+    position: relative;
+    top: -33px;
+    right: 13px;
+    /* float: right; */
+    flex-basis: 50%;
+    padding: 13px 0px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.heading-text {
+
+    /* border: 2px solid yellow; */
+    position: relative;
+    display: block;
+    font-size: 72px;
+    left: 24px;
+    padding: 14px 39px;
+    top: -66px;
+    text-align: -webkit-center;
+    color: #403d70;
+}
+.heading-text #span{
+    color: #3f3a87;
+}
+
+.description {
+    /* border: 3px solid violet; */
+    position: relative;
+    display: block;
+    left: 28px;
+    padding: 14px 39px;
+    bottom: 101px;
+    text-align: center;
+    font-size: 15px;
+    color: #beb8b8;
+
+
+}
+
+.below-button {
+    /* border: 2px solid red; */
+    position: relative;
+    left: 94px;
+    bottom: 30px;
+    padding: 24px 41px;
+    /* height: 81px; */
+    background-color: #3f3a87;
+    font-size: 20px;
+    color: #beb8b8;
+    border-radius: 16px;
+    border: none;
+}
+
+/* .lefttext{
+   
+    width: 50%;
+    top: 100px;
+    left: 30px;
+} */
